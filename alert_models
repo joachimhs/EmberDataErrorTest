@@ -1,0 +1,12 @@
+{"alert_models":[
+    {   "id":"new_alert",
+        "alert_name": "New Alert",
+        "warning_value": 123,
+        "critical_value": 150
+    },
+    {   "id":"new_alert_2",
+        "alert_name": "New Alert 2",
+        "warning_value": 119,
+        "critical_value": 134
+    }
+]}
