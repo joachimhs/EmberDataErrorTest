@@ -25,7 +25,7 @@ EDT.AlertModel = DS.Model.extend({
     criticalValue: DS.attr('number'),
 
     becameError: function() {
-        alert('becameError: ' + this.get('stateManager.currentPath'));
+        //alert('becameError: ' + this.get('stateManager.currentPath'));
         this.get('stateManager').transitionTo('rootState.loaded.updated.uncommitted');
     },
 
